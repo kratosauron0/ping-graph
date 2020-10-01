@@ -13,7 +13,10 @@ total losses of connectivity just before 5 PM and right at 6 PM.
 
 ## usage
 
+* install [fping](https://github.com/schweikert/fping), if you haven't already
+  * or [install using brew](https://formulae.brew.sh/formula/fping)
 * start by running `./start.sh [ip] [name]`
+  * e.g. `./start.sh 8.8.8.8 comcast`
 * this will start a long-running background task. you will have to kill it manually if you need to change it
 * make the `pings` folder accessible by symlinking to web server path or w/e
 * optionally, run another ping graph instance against a known-good connection like google or cloudflare
